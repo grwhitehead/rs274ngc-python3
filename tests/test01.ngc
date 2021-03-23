@@ -1,0 +1,7 @@
+%
+(test program)
+G90 G17 G20 G54
+%
+this should
+be
+ingored

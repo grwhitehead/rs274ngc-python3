@@ -1,0 +1,16 @@
+(modal group conflict test)
+G90
+G17
+G20
+G54
+G0 Z2.0000
+G0 X0.0000 Y0.0000
+M5
+T201 M6
+S10000 M3
+
+G17 G18
+
+G0 Z2.0000
+M5
+M2 (End of File)
