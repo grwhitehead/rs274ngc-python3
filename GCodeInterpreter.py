@@ -190,7 +190,7 @@ class GCodeInterpreter(GCodeVisitor):
         for (w_l,w_v) in args:
             if w_l.P():
                 p = w_v
-        self.time += p
+        self.time += p/60
     
     def handleG10(self, v, args): # set coordinate system data
         l = 0

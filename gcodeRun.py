@@ -31,7 +31,7 @@ def main(argv):
         print("max [{:.4f} {:.4f} {:.4f}]".format(*engine.maxPos))
         print("size [{:.4f} {:.4f} {:.4f}]".format(*(engine.maxPos-engine.minPos)))
     print("dist {:.4f} in".format(engine.dist))
-    print("time {:.2f} sec".format(engine.time))
+    print("time {:.2f} min".format(engine.time))
 
 if __name__ == '__main__':
     main(sys.argv)
